@@ -22,3 +22,34 @@ const observer = new IntersectionObserver(entries => {
 sections.forEach(section => {
     observer.observe(section);
 });
+
+// Contact form submission
+document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    alert('Děkujeme za vaši zprávu! Brzy vás budeme kontaktovat.');
+    this.reset();
+});
+
+// Flip card functionality
+function rotate(card) {
+    const serviceItemInner = card.querySelector('.service-item-inner');
+    serviceItemInner.style.transform = 'rotateY(180deg)';
+}
+
+function rotateback(card) {
+    const serviceItemInner = card.querySelector('.service-item-inner');
+    serviceItemInner.style.transform = 'rotateY(0deg)';
+}
+
+// Add event listeners to all "Více informací" and "Zpět" buttons
+document.querySelectorAll('.service-item .learn-more').forEach(button => {
+    button.addEventListener('click', function (e) {
+        e.preventDefault(); // Prevent default button behavior
+        const card = this.closest('.service-item');
+        if (this.textContent.includes('Více informací')) {
+            rotate(card);
+        } else {
+            rotateback(card);
+        }
+    });
+});
