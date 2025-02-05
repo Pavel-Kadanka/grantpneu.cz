@@ -1,0 +1,80 @@
+.service-list {
+    display: grid;
+    grid-auto-rows: 1fr; /* Makes all rows the same height */
+}
+
+.service-item {
+    perspective: 1000px;
+    background-color: var(--color-bg-secondary);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    text-align: center;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.service-item-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.service-item.flipped .service-item-inner {
+    transform: rotateY(180deg);
+}
+
+.service-item-front, .service-item-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #2E2B2B;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-item-back {
+    transform: rotateY(180deg);
+}
+
+.service-item i {
+    font-size: 2rem;
+    color: #f8bc04;
+    margin-bottom: 10px;
+}
+
+.service-item img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.service-item .learn-more {
+    color: #f8bc04;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-top: auto;
+    cursor: pointer;
+}
+
+.service-item .learn-more:hover {
+    color: #e0a800;
+}

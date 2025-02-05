@@ -1,0 +1,133 @@
+/* Base */
+@import 'base/_variables.css';
+@import 'base/_reset.css';
+@import 'base/_typography.css';
+
+/* Layout */
+@import 'layout/_header.css';
+@import 'layout/_navigation.css';
+@import 'layout/_footer.css';
+@import 'layout/_grid.css';
+
+/* Components */
+@import 'components/_buttons.css';
+@import 'components/_cards.css';
+@import 'components/_forms.css';
+
+/* Sections */
+@import 'sections/_hero.css';
+@import 'sections/_services.css';
+@import 'sections/_about.css';
+@import 'sections/_pricing.css';
+@import 'sections/_testimonials.css';
+@import 'sections/_contact.css';
+
+/* Utils */
+@import 'utils/_animations.css';
+@import 'utils/_helpers.css';
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    body {
+        margin: 0 2vw;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 120px 20px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-map {
+        max-width: 100%;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .service-list,
+    .price-list,
+    .testimonial-list {
+        grid-template-columns: 1fr;
+    }
+
+    .milestones {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-image img {
+        height: 30vh;
+    }
+
+    .service-item {
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    .hero-icons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #contact-form {
+        padding: 20px;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    .service-item {
+        min-height: 350px;
+    }
+
+    .service-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .price-item,
+    .testimonial-item {
+        padding: 15px;
+    }
+} 

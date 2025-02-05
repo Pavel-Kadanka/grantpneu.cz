@@ -1,0 +1,12 @@
+:root {
+    --color-primary: #f8bc04;
+    --color-primary-dark: #e0a800;
+    --color-bg: #000000;
+    --color-bg-secondary: #2E2B2B;
+    --color-text: #ffffff;
+    --color-text-secondary: #ccc;
+    --font-primary: 'Open Sans', sans-serif;
+    --font-display: 'Teko', sans-serif;
+    --transition-standard: 0.3s;
+    --border-radius: 10px;
+} 

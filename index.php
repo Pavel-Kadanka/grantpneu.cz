@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grant Pneu</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -27,6 +27,30 @@
                     <li><a href="#testimonials">Recenze</a></li>
                     <li><a href="#kontakt">Kontakt</a></li>
                 </ul>
+            </div>
+            
+            <div class="mobile-menu">
+                <div class="container">
+                    <input class="checkbox" type="checkbox" @change="showMenu($event)" />
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <div id="logo">
+                    <span>GrantPneu</span>
+                    <img src="/public/tires.png" alt="Logo">
+                </div>
+                </div>
+                <div class="mobile-menu-items">
+                    <ul>
+                        <li><a href="#sluzby">Služby</a></li>
+                        <li><a href="#o-nas">O nás</a></li>
+                        <li><a href="#cenik">Ceník</a></li>
+                        <li><a href="#testimonials">Recenze</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="hero">
@@ -57,64 +81,66 @@
 
     <section id="sluzby">
         <h2>Služby</h2>
-        <div class="service-list">
-            <div class="service-item">
-                <div class="service-item-inner">
-                    <div class="service-item-front">
-                        <div class="service-item-card">
-                            <img src="/public/grantpneu-cz_03.jpg" alt="Pneumatiky">
-                            <i class="bi bi-truck"></i>
-                            <h3>Pneumatiky</h3>
-                            <p>Prodej a montáž pneumatik.</p>
-                            <a class="learn-more">Více informací <i class="bi bi-arrow-right"></i></a>
+        <div class="service-content">
+            <div class="service-list">
+                <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="service-item-front">
+                            <div class="service-item-card">
+                                <img src="/public/grantpneu-cz_03.jpg" alt="Pneumatiky">
+                                <i class="bi bi-truck"></i>
+                                <h3>Pneumatiky</h3>
+                                <p>Prodej a montáž pneumatik.</p>
+                                <a class="learn-more">Více informací <i class="bi bi-arrow-right"></i></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="service-item-back">
-                        <div class="service-item-card">
-                            <img src="/public/grantpneu-cz_02.jpg" alt="Pneumatiky">
-                            <h3>Pneumatiky</h3>
-                            <p>Nabízíme široký výběr pneumatik pro všechny typy vozidel. Provádíme také odbornou montáž a vyvážení.</p>
-                            <a class="learn-more">Zpět <i class="bi bi-arrow-left"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="service-item">
-                <div class="service-item-inner">
-                    <div class="service-item-front">
-                        <div class="service-item-card">
-                            <img src="/public/9199759.png" alt="Servis">
-                            <i class="bi bi-tools"></i>
-                            <h3>Servis</h3>
-                            <p>Kompletní servis vozidel.</p>
-                            <a class="learn-more">Více informací <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="service-item-back">
-                        <div class="service-item-card">
-                            <h3>Servis</h3>
-                            <p>Provádíme pravidelné servisní prohlídky, výměny oleje, brzdových destiček a další údržbu vozidel.</p>
-                            <a class="learn-more">Zpět <i class="bi bi-arrow-left"></i></a>
+                        <div class="service-item-back">
+                            <div class="service-item-card">
+                                <img src="/public/grantpneu-cz_02.jpg" alt="Pneumatiky">
+                                <h3>Pneumatiky</h3>
+                                <p>Nabízíme široký výběr pneumatik pro všechny typy vozidel. Provádíme také odbornou montáž a vyvážení.</p>
+                                <a class="learn-more">Zpět <i class="bi bi-arrow-left"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="service-item">
-                <div class="service-item-inner">
-                    <div class="service-item-front">
-                        <div class="service-item-card">
-                            <img src="/public/geometrie.jpg" alt="Geometrie">
-                            <i class="bi bi-gear"></i>
-                            <h3>Geometrie</h3>
-                            <p>Profesionální seřízení geometrie.</p>
-                            <a class="learn-more">Více informací <i class="bi bi-arrow-right"></i></a>
+                <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="service-item-front">
+                            <div class="service-item-card">
+                                <img src="/public/9199759.png" alt="Servis">
+                                <i class="bi bi-tools"></i>
+                                <h3>Servis</h3>
+                                <p>Kompletní servis vozidel.</p>
+                                <a class="learn-more">Více informací <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="service-item-back">
+                            <div class="service-item-card">
+                                <h3>Servis</h3>
+                                <p>Provádíme pravidelné servisní prohlídky, výměny oleje, brzdových destiček a další údržbu vozidel.</p>
+                                <a class="learn-more">Zpět <i class="bi bi-arrow-left"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="service-item-back">
-                        <div class="service-item-card">
-                            <h3>Geometrie</h3>
-                            <p>Pomocí moderních přístrojů přesně seřídíme geometrii kol, aby vaše vozidlo jezdilo rovně a bezpečně.</p>
-                            <a class="learn-more">Zpět <i class="bi bi-arrow-left"></i></a>
+                </div>
+                <div class="service-item">
+                    <div class="service-item-inner">
+                        <div class="service-item-front">
+                            <div class="service-item-card">
+                                <img src="/public/geometrie.jpg" alt="Geometrie">
+                                <i class="bi bi-gear"></i>
+                                <h3>Geometrie</h3>
+                                <p>Profesionální seřízení geometrie.</p>
+                                <a class="learn-more">Více informací <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="service-item-back">
+                            <div class="service-item-card">
+                                <h3>Geometrie</h3>
+                                <p>Pomocí moderních přístrojů přesně seřídíme geometrii kol, aby vaše vozidlo jezdilo rovně a bezpečně.</p>
+                                <a class="learn-more">Zpět <i class="bi bi-arrow-left"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -238,15 +264,13 @@
                 </p>
             </div>
             <div class="contact-map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.123456789012!2d16.12345678901234!3d49.12345678901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA3JzI0LjQiTiAxNsKwMDcnMjQuNCJF!5e0!3m2!1sen!2scz!4v1691234567890!5m2!1sen!2scz"
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.7822147371385!2d16.479972175973586!3d49.052764387008786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4712b96433dc3347%3A0xd4c9bb74a2325abe!2zR3JhbnRQbmV1IC0gSmnFmcOtIE1hdHXFoWth!5e0!3m2!1scs!2scz!4v1738782860718!5m2!1scs!2scz"
                     width="100%"
-                    height="400"
+                    height="450"
                     style="border:0;"
                     allowfullscreen=""
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <form id="contact-form">
                     <h3>Napište nám</h3>
                     <input type="text" name="name" placeholder="Vaše jméno" required>
@@ -267,7 +291,7 @@
         <p>&copy; 2023 Grant Pneu. Všechna práva vyhrazena.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 
 </html>

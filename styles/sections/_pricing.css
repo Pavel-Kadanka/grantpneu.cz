@@ -1,0 +1,43 @@
+.price-item {
+    background-color: #2E2B2B;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.price-item i {
+    font-size: 2rem;
+    color: #f8bc04;
+    margin-bottom: 10px;
+}
+
+.price-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.price-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.price-item .discount {
+    color: #f8bc04;
+    font-weight: bold;
+}
+
+.price-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.price-cta {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.price-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}

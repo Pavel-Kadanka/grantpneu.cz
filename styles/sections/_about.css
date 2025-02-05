@@ -1,0 +1,52 @@
+#o-nas {
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.about-text {
+    max-width: 50%;
+    text-align: left;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.milestones {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.milestone-item {
+    text-align: center;
+}
+
+.milestone-item i {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+}
+
+.milestone-item h3 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.milestone-item p {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+} 

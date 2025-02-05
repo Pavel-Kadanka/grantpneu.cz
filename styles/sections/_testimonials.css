@@ -1,0 +1,18 @@
+.testimonial-item {
+    background-color: #2E2B2B;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonial-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-item i {
+    font-size: 2rem;
+    color: #f8bc04;
+    margin-bottom: 10px;
+}
