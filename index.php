@@ -18,7 +18,8 @@
             <div id="menu">
                 <div id="logo">
                     <h1>GrantPneu</h1>
-                    <img src="/public/tires.png" alt="Logo">
+                    <img class="white-logo" src="/public/tires_white.png" alt="Logo">
+                    <img class="black-logo" src="/public/tires_black.png" alt="Logo">
                 </div>
                 <ul>
                     <li><a href="#sluzby">Služby</a></li>
@@ -26,6 +27,13 @@
                     <li><a href="#cenik">Ceník</a></li>
                     <li><a href="#testimonials">Recenze</a></li>
                     <li><a href="#kontakt">Kontakt</a></li>
+                    <li>
+                        <div id="theme-pc">
+                            <button id="theme-toggle" aria-label="Toggle light mode">
+                                <i class="bi bi-sun-fill"></i>
+                            </button>
+                        </div>
+                    </li>
                 </ul>
             </div>
             
@@ -38,9 +46,15 @@
                         <span class="line line3"></span>
                     </div>
                     <div id="logo">
-                    <span>GrantPneu</span>
-                    <img src="/public/tires.png" alt="Logo">
-                </div>
+                        <span>GrantPneu</span>
+                        <img class="white-logo" src="/public/tires_white.png" alt="Logo">
+                        <img class="black-logo" src="/public/tires_black.png" alt="Logo">
+                    </div>
+                    <div id="theme-mobile">
+                        <button id="theme-toggle" aria-label="Toggle light mode">
+                            <i class="bi bi-sun-fill"></i>
+                        </button>
+                    </div>
                 </div>
                 <div class="mobile-menu-items">
                     <ul>
@@ -289,7 +303,7 @@
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <form id="contact-form">
+                <form id="contact-form" method="POST" action="send_email.php">
                     <h3>Napište nám</h3>
                     <input type="text" name="name" placeholder="Vaše jméno" required>
                     <input type="email" name="email" placeholder="Váš email" required>

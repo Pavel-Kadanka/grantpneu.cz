@@ -3,12 +3,14 @@ import { initScrollAnimations } from './features/scrollAnimations.js';
 import { initContactForm } from './features/contactForm.js';
 import { initFlipCards } from './features/flipCards.js';
 import { menuAnimationIn, menuAnimationReset } from './utils/animations.js';
+import { initThemeToggle } from './features/modeChange.js';
 
 document.addEventListener('DOMContentLoaded', function() {
     initSmoothScrolling();
     initScrollAnimations();
     initContactForm();
     initFlipCards();
+    initThemeToggle();
 
     const checkbox = document.querySelector('.checkbox');
     
