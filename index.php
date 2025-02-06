@@ -91,7 +91,10 @@
                                 <i class="bi bi-truck"></i>
                                 <h3>Pneumatiky</h3>
                                 <p>Prodej a montáž pneumatik.</p>
-                                <a class="learn-more">Více informací <i class="bi bi-arrow-right"></i></a>
+                                <div class="learn-more">
+                                    <a>Více informací</a>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="service-item-back">
@@ -99,7 +102,10 @@
                                 <img src="/public/grantpneu-cz_02.jpg" alt="Pneumatiky">
                                 <h3>Pneumatiky</h3>
                                 <p>Nabízíme široký výběr pneumatik pro všechny typy vozidel. Provádíme také odbornou montáž a vyvážení.</p>
-                                <a class="learn-more">Zpět <i class="bi bi-arrow-left"></i></a>
+                                <div class="learn-more">
+                                    <a>Zpět</a>
+                                    <i class="bi bi-arrow-left"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -112,14 +118,20 @@
                                 <i class="bi bi-tools"></i>
                                 <h3>Servis</h3>
                                 <p>Kompletní servis vozidel.</p>
-                                <a class="learn-more">Více informací <i class="bi bi-arrow-right"></i></a>
+                                <div class="learn-more">
+                                    <a>Více informací</a>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="service-item-back">
                             <div class="service-item-card">
                                 <h3>Servis</h3>
                                 <p>Provádíme pravidelné servisní prohlídky, výměny oleje, brzdových destiček a další údržbu vozidel.</p>
-                                <a class="learn-more">Zpět <i class="bi bi-arrow-left"></i></a>
+                                <div class="learn-more">
+                                    <a>Zpět</a>
+                                    <i class="bi bi-arrow-left"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -132,14 +144,20 @@
                                 <i class="bi bi-gear"></i>
                                 <h3>Geometrie</h3>
                                 <p>Profesionální seřízení geometrie.</p>
-                                <a class="learn-more">Více informací <i class="bi bi-arrow-right"></i></a>
+                                <div class="learn-more">
+                                    <a>Více informací</a>
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="service-item-back">
                             <div class="service-item-card">
                                 <h3>Geometrie</h3>
                                 <p>Pomocí moderních přístrojů přesně seřídíme geometrii kol, aby vaše vozidlo jezdilo rovně a bezpečně.</p>
-                                <a class="learn-more">Zpět <i class="bi bi-arrow-left"></i></a>
+                                <div class="learn-more">
+                                    <a>Zpět</a>
+                                    <i class="bi bi-arrow-left"></i>
+                                </div>
                             </div>
                         </div>
                     </div>

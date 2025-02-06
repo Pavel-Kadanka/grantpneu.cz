@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
-    height: 100vh;
+    height: 100%;
 }
 
 .hero-content {
@@ -50,3 +50,20 @@
     font-size: 1rem;
     margin: 0;
 } 
+
+@media (max-width: 1024px) {
+    .hero {
+        height: 35%;
+    }
+    .hero-image {
+        display: none;
+    }
+    .hero-icons {
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+    .hero-icons {
+        display: none;
+    }
+}
