@@ -76,6 +76,10 @@
         flex-direction: column;
         gap: 30px;
     }
+    .milestone-item {
+        text-align: center;
+        width: 100%;
+    }
 
     .hero-content h1 {
         font-size: 2.5rem;

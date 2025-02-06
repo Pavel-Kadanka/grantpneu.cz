@@ -30,10 +30,6 @@ export function menuAnimationIn() {
     line1.style.transform = "translateY(15px) rotate(45deg)";
     line2.style.opacity = "0";
     line3.style.transform = "translateY(-15px) rotate(-45deg)";
-    
-    // Change color
-    line1.style.background = "#0e2431";
-    line3.style.background = "#0e2431";
 }
 
 export function menuAnimationReset() {
@@ -49,8 +45,4 @@ export function menuAnimationReset() {
     line1.style.transform = "translateY(0) rotate(0)";
     line2.style.opacity = "1";
     line3.style.transform = "translateY(0) rotate(0)";
-    
-    // Reset color
-    line1.style.background = "#FFFFFF";
-    line3.style.background = "#FFFFFF";
 }
