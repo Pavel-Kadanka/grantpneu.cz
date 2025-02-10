@@ -87,6 +87,7 @@ nav {
 #theme-mobile {
     display: flex;
     justify-content: end;
+    width: 100%;
 }
 
 .black-logo {
@@ -113,17 +114,23 @@ nav {
 
     .container {
         position: relative;
+        display: flex;
+        flex-direction: row;
         padding: 20px;
         z-index: 3;
         width: 100%;
-        height: auto;
+        height: 30px;
+        background-color: var(--color-bg-secondary);;
     }
 
     #logo {
-        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        padding: 0 15px;
         top: 20px;
         left: 80px;
-        align-items: start;
     }
 
     #logo span {
@@ -134,13 +141,17 @@ nav {
         font-size: 3.1rem;
         font-family: var(--font-display);
         font-weight: 400;
-        line-height: 0.8;
+    }
+
+    .checkbox-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
     }
 
     .container .checkbox {
         position: absolute;
-        top: 20px;
-        left: 20px;
         height: 32px;
         width: 32px;
         z-index: 5;
@@ -149,9 +160,6 @@ nav {
     }
 
     .container .hamburger-lines {
-        position: absolute;
-        top: 20px;
-        left: 20px;
         height: 36px;
         width: 42px;
         z-index: 2;
