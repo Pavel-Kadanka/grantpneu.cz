@@ -88,3 +88,14 @@
         display: none;
     }
 }
+
+@media (max-width: 2048px) {
+    .service-item {
+        min-height: 500px;
+    }
+}
+@media (max-width: 1564px) {
+    .service-item {
+        min-height: 420px;
+    }
+}
