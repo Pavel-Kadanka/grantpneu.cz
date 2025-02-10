@@ -9,9 +9,9 @@ export function rotateback(card) {
 } 
 
 export function menuAnimationIn() {
-    let line1 = document.querySelector(".mobile-menu .hamburger-lines .line1");
-    let line2 = document.querySelector(".mobile-menu .hamburger-lines .line2");
-    let line3 = document.querySelector(".mobile-menu .hamburger-lines .line3");
+    let line1 = document.querySelector(".checkbox-container .hamburger-lines .line1");
+    let line2 = document.querySelector(".checkbox-container .hamburger-lines .line2");
+    let line3 = document.querySelector(".checkbox-container .hamburger-lines .line3");
     let mobileMenuItems = document.querySelector(".mobile-menu-items");
 
     // Set the transform origin to the center of the elements
@@ -33,9 +33,9 @@ export function menuAnimationIn() {
 }
 
 export function menuAnimationReset() {
-    let line1 = document.querySelector(".mobile-menu .hamburger-lines .line1");
-    let line2 = document.querySelector(".mobile-menu .hamburger-lines .line2");
-    let line3 = document.querySelector(".mobile-menu .hamburger-lines .line3");
+    let line1 = document.querySelector(".checkbox-container .hamburger-lines .line1");
+    let line2 = document.querySelector(".checkbox-container .hamburger-lines .line2");
+    let line3 = document.querySelector(".checkbox-container .hamburger-lines .line3");
     let mobileMenuItems = document.querySelector(".mobile-menu-items");
 
     // Hide mobile menu
