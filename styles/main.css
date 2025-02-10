@@ -36,15 +36,6 @@
         text-align: center;
     }
 
-    .hero-content {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 100vh;
-        max-width: 100%;
-    }
-
     .hero-content h1 {
         font-size: 3rem;
     }
