@@ -34,10 +34,14 @@
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 120px 20px;
     }
 
     .hero-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
         max-width: 100%;
     }
 
