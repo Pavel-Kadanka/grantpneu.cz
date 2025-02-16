@@ -24,7 +24,7 @@ export function menuAnimationIn() {
     line3.style.transition = "transform 0.5s, background 0.5s";
 
     // Show mobile menu
-    mobileMenuItems.style.transform = "translateX(0)";
+    mobileMenuItems.style.width = "100%";
 
     // Animate hamburger to X
     line1.style.transform = "translateY(15px) rotate(45deg)";
@@ -39,7 +39,7 @@ export function menuAnimationReset() {
     let mobileMenuItems = document.querySelector(".mobile-menu-items");
 
     // Hide mobile menu
-    mobileMenuItems.style.transform = "translateX(-150%)";
+    mobileMenuItems.style.width = "0%";
 
     // Reset hamburger
     line1.style.transform = "translateY(0) rotate(0)";

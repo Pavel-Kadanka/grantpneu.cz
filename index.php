@@ -36,7 +36,7 @@
                     </li>
                 </ul>
             </div>
-            
+
             <div class="mobile-menu">
                 <div class="container">
                     <div class="checkbox-container">
@@ -58,17 +58,17 @@
                         </button>
                     </div>
                 </div>
-                <div class="mobile-menu-items">
-                    <ul>
-                        <li><a href="#sluzby">Služby</a></li>
-                        <li><a href="#o-nas">O nás</a></li>
-                        <li><a href="#cenik">Ceník</a></li>
-                        <li><a href="#testimonials">Recenze</a></li>
-                        <li><a href="#kontakt">Kontakt</a></li>
-                    </ul>
-                </div>
             </div>
         </nav>
+        <div class="mobile-menu-items">
+            <ul>
+                <li><a href="#sluzby">Služby</a></li>
+                <li><a href="#o-nas">O nás</a></li>
+                <li><a href="#cenik">Ceník</a></li>
+                <li><a href="#testimonials">Recenze</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </div>
         <div class="hero">
             <div class="hero-content">
                 <h1>Vítejte v GrantPneu</h1>
