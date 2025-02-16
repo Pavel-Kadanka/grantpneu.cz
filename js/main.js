@@ -4,6 +4,7 @@ import { initContactForm } from './features/contactForm.js';
 import { initFlipCards } from './features/flipCards.js';
 import { menuAnimationIn, menuAnimationReset } from './utils/animations.js';
 import { initThemeToggle } from './features/modeChange.js';
+import { closeMenu } from './features/menuBack.js'
 
 document.addEventListener('DOMContentLoaded', function() {
     initSmoothScrolling();
@@ -11,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initContactForm();
     initFlipCards();
     initThemeToggle();
+    closeMenu();
 
     const checkbox = document.querySelector('.checkbox');
     
