@@ -25,7 +25,7 @@
 }
 
 .hero-image img {
-    height: 50vh;
+    height: 80vh;
     width: auto;
     animation: float 3s ease-in-out infinite;
 }
@@ -45,6 +45,10 @@
     font-size: 2rem;
     color: var(--color-primary);
     margin-bottom: 10px;
+}
+
+.icon-item i img {
+    max-height: 32px;
 }
 
 .icon-item p {

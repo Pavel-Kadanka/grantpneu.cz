@@ -47,7 +47,7 @@
 
 .service-item i {
     font-size: 2rem;
-    color: #f8bc04;
+    color: var(--color-primary);
     margin-left: 10px;
 }
 
@@ -72,7 +72,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #f8bc04;
+    color: var(--color-primary);
     text-decoration: none;
     transition: color 0.3s;
     margin-top: auto;
@@ -80,7 +80,23 @@
 }
 
 .service-item .learn-more:hover {
-    color: #e0a800;
+    color: var(--color-primary-darker);
+}
+
+.additional-service {
+    font-size: 1.1rem;
+    color: var(--color-text);
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: var(--color-bg-secondary);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.additional-service strong {
+    color: var(--color-primary);
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -96,6 +112,6 @@
 }
 @media (max-width: 1564px) {
     .service-item {
-        min-height: 420px;
+        min-height: 475px;
     }
 }

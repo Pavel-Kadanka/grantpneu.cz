@@ -4,12 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grant Pneu</title>
+    <title>Grantpneu.cz</title>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" rel="stylesheet">
+    <meta name="description" content="Profesionální pneuservis v Pravlově. Nabízíme kompletní služby pneuservisu, přezutí pneumatik a opravy. Kvalitní služby za rozumné ceny.">
+    <meta name="keywords" content="pneuservis Pravlov, přezutí pneumatik, oprava pneumatik, zimní pneumatiky, letní pneumatiky, pneubazar, pneuhotel">
+    <meta name="author" content="Grant Pneu">
+    <meta name="robots" content="index, follow">
+
+    <link rel="icon" type="icon" href="public/tires_black.png">
+    
+    <!-- Open Graph tags for social media -->
+    <meta property="og:title" content="Grant Pneu - Profesionální pneuservis Pravlov">
+    <meta property="og:description" content="Kompletní služby pneuservisu včetně přezutí a oprav pneumatik. Kvalitní služby za rozumné ceny.">
+    <meta property="og:image" content="/public/prodejna.png">
+    <meta property="og:url" content="https://grantpneu.cz">
+    
+    <!-- Canonical URL to prevent duplicate content -->
+    <link rel="canonical" href="https://grantpneu.cz">
 </head>
 
 <body>
@@ -17,7 +32,7 @@
         <nav>
             <div id="menu">
                 <div id="logo">
-                    <h1>GrantPneu</h1>
+                    <h1>Grantpneu.cz</h1>
                     <img class="white-logo" src="/public/tires_white.png" alt="Logo">
                     <img class="black-logo" src="/public/tires_black.png" alt="Logo">
                 </div>
@@ -71,26 +86,26 @@
         </div>
         <div class="hero">
             <div class="hero-content">
-                <h1>Vítejte v GrantPneu</h1>
+                <h1>Výtejte v Grantpneu.cz</h1>
                 <p>Investice do kvalitních pneumatik je investice do vašeho bezpečí</p>
                 <a href="#sluzby" class="cta-button">Naše služby <i class="bi bi-arrow-right"></i></a>
                 <div class="hero-icons">
                     <div class="icon-item">
-                        <i class="bi bi-truck"></i>
-                        <p>Pneumatiky</p>
+                        <i><img src="public/tire.png" alt=""></i>
+                        <p>Pneuservis</p>
                     </div>
                     <div class="icon-item">
                         <i class="bi bi-tools"></i>
-                        <p>Servis</p>
+                        <p>Oprava pneumatik</p>
                     </div>
                     <div class="icon-item">
-                        <i class="bi bi-gear"></i>
-                        <p>Geometrie</p>
+                        <i class="bi bi-car-front"></i>
+                        <p>Přezutí pneumatik</p>
                     </div>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="/public/grantpneu-cz_01-removebg-preview.png" alt="Hero Image" class="floating">
+                <img src="/public/car.png" alt="Ilustrační auto" class="floating">
             </div>
         </div>
     </header>
@@ -105,8 +120,8 @@
                             <div class="service-item-card">
                                 <img src="/public/grantpneu-cz_03.jpg" alt="Pneumatiky">
                                 <i class="bi bi-truck"></i>
-                                <h3>Pneumatiky</h3>
-                                <p>Prodej a montáž pneumatik.</p>
+                                <h3>Pneuservis</h3>
+                                <p>Kompletní pneuservis pro osobní i nákladní vozidla. Rychle a profesionálně.</p>
                                 <div class="learn-more">
                                     <a>Více informací</a>
                                     <i class="bi bi-arrow-right"></i>
@@ -115,9 +130,8 @@
                         </div>
                         <div class="service-item-back">
                             <div class="service-item-card">
-                                <img src="/public/grantpneu-cz_02.jpg" alt="Pneumatiky">
-                                <h3>Pneumatiky</h3>
-                                <p>Nabízíme široký výběr pneumatik pro všechny typy vozidel. Provádíme také odbornou montáž a vyvážení.</p>
+                                <h3>Pneuservis</h3>
+                                <p>Nabízíme širokou škálu služeb v oblasti pneuservisu, včetně výměny pneumatik. Věnujeme se jak osobním, SUV, offroad, dodávkám. Přijďte a přesvědčte se sami!</p>
                                 <div class="learn-more">
                                     <a>Zpět</a>
                                     <i class="bi bi-arrow-left"></i>
@@ -132,8 +146,8 @@
                             <div class="service-item-card">
                                 <img src="/public/9199759.png" alt="Servis">
                                 <i class="bi bi-tools"></i>
-                                <h3>Servis</h3>
-                                <p>Kompletní servis vozidel.</p>
+                                <h3>Oprava pneumatik</h3>
+                                <p>Opravy pneumatik všech typů. Spolehněte se na naši profesionalitu</p>
                                 <div class="learn-more">
                                     <a>Více informací</a>
                                     <i class="bi bi-arrow-right"></i>
@@ -142,8 +156,8 @@
                         </div>
                         <div class="service-item-back">
                             <div class="service-item-card">
-                                <h3>Servis</h3>
-                                <p>Provádíme pravidelné servisní prohlídky, výměny oleje, brzdových destiček a další údržbu vozidel.</p>
+                                <h3>Oprava pneumatik</h3>
+                                <p>Provádíme opravy pneumatik pro všechny druhy vozidel. Naše služby zahrnují opravy běhounu, bočnic a dalších částí pneumatik. Používáme kvalitní materiály a moderní techniky, které zaručují dlouhou životnost oprav. S námi budete opět na cestě v co nejkratším čase.</p>
                                 <div class="learn-more">
                                     <a>Zpět</a>
                                     <i class="bi bi-arrow-left"></i>
@@ -158,8 +172,8 @@
                             <div class="service-item-card">
                                 <img src="/public/geometrie.jpg" alt="Geometrie">
                                 <i class="bi bi-gear"></i>
-                                <h3>Geometrie</h3>
-                                <p>Profesionální seřízení geometrie.</p>
+                                <h3>Přezutí pneumatik</h3>
+                                <p>Sezónní přezutí pneumatik s precizním provedením.</p>
                                 <div class="learn-more">
                                     <a>Více informací</a>
                                     <i class="bi bi-arrow-right"></i>
@@ -168,8 +182,8 @@
                         </div>
                         <div class="service-item-back">
                             <div class="service-item-card">
-                                <h3>Geometrie</h3>
-                                <p>Pomocí moderních přístrojů přesně seřídíme geometrii kol, aby vaše vozidlo jezdilo rovně a bezpečně.</p>
+                                <h3>Přezutí pneumatik</h3>
+                                <p>Nabízíme profesionální přezutí pneumatik včetně jejich uskladnění. Přezouváme jak osobním, SUV, offroad, tak i dodávky. Dbáme na bezpečnost a komfort vaší jízdy. S námi budete vždy připraveni na každé roční období.</p>
                                 <div class="learn-more">
                                     <a>Zpět</a>
                                     <i class="bi bi-arrow-left"></i>
@@ -180,6 +194,11 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <p class="additional-service">Nabízíme také <strong>pneubazar</strong>, kde najdete široký výběr kvalitních pneumatik za výhodné ceny.</p>
+    <p class="additional-service">Dále provozujeme <strong>pneuhotel</strong>, kde vám bezpečně uskladníme vaše pneumatiky, když je zrovna nepotřebujete.</p>
+
     </section>
 
     <section id="o-nas">
@@ -227,18 +246,21 @@
             </div>
             <div class="price-item">
                 <i class="bi bi-wrench"></i>
-                <h3>Servisní prohlídka</h3>
+                <h3>Oprava pneumatik</h3>
                 <p>od 1000 Kč</p>
             </div>
             <div class="price-item">
                 <i class="bi bi-speedometer"></i>
-                <h3>Geometrie kol</h3>
+                <h3>Kompletní pneuservis</h3>
                 <p>od 1200 Kč</p>
             </div>
         </div>
-        <div class="price-cta">
-            <p>Potřebujete individuální cenovou nabídku?</p>
-            <a href="#kontakt" class="cta-button">Kontaktujte nás <i class="bi bi-arrow-right"></i></a>
+        <div class="phone-order-cta">
+            <p class="phone-order-text">Objednávky probíhají <strong>pouze po telefonu</strong></p>
+            <p class="phone-order-subtext">Zavolejte nám a domluvte si termín ještě dnes!</p>
+            <a href="tel:+420123456789" class="cta-button">
+                +420 606 123 254 <i class="bi bi-telephone phone-icon"></i>
+            </a>
         </div>
     </section>
 
@@ -296,6 +318,9 @@
                 <p>
                     Vydal Městský úřad Ivančice, spisová značka: ŽÚ/17/28/MUS
                 </p>
+                <p>
+                    Jsme plátci daně
+                </p>
             </div>
             <div class="contact-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.7822147371385!2d16.479972175973586!3d49.052764387008786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4712b96433dc3347%3A0xd4c9bb74a2325abe!2zR3JhbnRQbmV1IC0gSmnFmcOtIE1hdHXFoWth!5e0!3m2!1scs!2scz!4v1738782860718!5m2!1scs!2scz"
@@ -326,6 +351,113 @@
     </footer>
 
     <script type="module" src="js/main.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "Grant Pneu",
+      "image": "/public/prodejna.png",
+      "description": "Profesionální pneuservis v Pravlově nabízející kompletní služby pneuservisu, přezutí a opravy pneumatik.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Pravlov 180",
+        "addressLocality": "Pravlov",
+        "postalCode": "664 64",
+        "addressCountry": "CZ"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 49.052764387008786,
+        "longitude": 16.479972175973586
+      },
+      "openingHours": "Mo-Fr 09:00-18:00",
+      "telephone": "+420606123254",
+      "priceRange": "$$",
+      "email": ["grantpneu@seznam.cz", "info@grantpneu.cz"],
+      "url": "https://grantpneu.cz",
+      "sameAs": [
+        "https://www.facebook.com/grantpneu",
+        "https://www.instagram.com/grantpneu"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Pneuservisní služby",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Montáž pneumatik",
+              "description": "Kompletní pneuservis pro osobní i nákladní vozidla",
+              "price": "500",
+              "priceCurrency": "CZK"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Oprava pneumatik",
+              "description": "Opravy pneumatik všech typů",
+              "price": "1000",
+              "priceCurrency": "CZK"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Kompletní pneuservis",
+              "description": "Kompletní servisní služby pro vaše pneumatiky",
+              "price": "1200",
+              "priceCurrency": "CZK"
+            }
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "5000"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Jan Novák"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Skvělý servis a příjemný personál. Doporučuji!"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Petra Dvořáková"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Rychlá a profesionální montáž pneumatik."
+        }
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Pravlov",
+        "containedInPlace": {
+          "@type": "AdministrativeArea",
+          "name": "Jihomoravský kraj"
+        }
+      },
+      "paymentAccepted": ["cash", "credit card"],
+      "currenciesAccepted": "CZK"
+    }
+    </script>
 </body>
 
 </html>

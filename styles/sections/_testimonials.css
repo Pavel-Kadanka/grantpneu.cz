@@ -13,6 +13,6 @@
 
 .testimonial-item i {
     font-size: 2rem;
-    color: #f8bc04;
+    color: var(--color-primary);
     margin-bottom: 10px;
 }

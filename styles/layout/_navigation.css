@@ -57,6 +57,10 @@ nav {
     display: none;
 }
 
+.mobile-menu-items {
+    display: none;
+}
+
 #theme-toggle {
     background: none;
     border: none;
@@ -111,6 +115,10 @@ nav {
         flex-direction: row;
         width: 100%;
         overflow-x: hidden;
+    }
+
+    .mobile-menu-items {
+        display: block;
     }
 
     .container {

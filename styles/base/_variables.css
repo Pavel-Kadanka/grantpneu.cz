@@ -1,7 +1,7 @@
 :root {
     /* Dark mode (default) */
-    --color-primary: #f8bc04;
-    --color-primary-dark: #e0a800;
+    --color-primary: #d87504;
+    --color-primary-dark: #b36105;
     --color-bg: #000000;
     --color-bg-secondary: #2E2B2B;
     --color-text: #ffffff;
@@ -14,8 +14,8 @@
 
 /* Light mode */
 [data-theme="light"] {
-    --color-primary: #e0a800;
-    --color-primary-dark: #c49500;
+    --color-primary: #d87504;
+    --color-primary-dark: #b36105;
     --color-bg: #ffffff;
     --color-bg-secondary: #dfdfdf;
     --color-text: #000000;
