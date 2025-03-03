@@ -16,13 +16,13 @@
     <meta name="robots" content="index, follow">
 
     <link rel="icon" type="icon" href="public/tires_black.png">
-    
+
     <!-- Open Graph tags for social media -->
     <meta property="og:title" content="Grant Pneu - Profesionální pneuservis Pravlov">
     <meta property="og:description" content="Kompletní služby pneuservisu včetně přezutí a oprav pneumatik. Kvalitní služby za rozumné ceny.">
     <meta property="og:image" content="/public/prodejna.png">
     <meta property="og:url" content="https://grantpneu.cz">
-    
+
     <!-- Canonical URL to prevent duplicate content -->
     <link rel="canonical" href="https://grantpneu.cz">
 </head>
@@ -269,23 +269,59 @@
         <div class="testimonial-list">
             <div class="testimonial-item">
                 <i class="bi bi-chat-quote"></i>
-                <p>"Skvělý servis a příjemný personál. Doporučuji!"</p>
-                <p><strong>- Jan Novák</strong></p>
+                <p>"V pneuservisu pana Matušky jsem vždy zcela spokojen. Kvalita a rychlost služeb je zde na profesionální úrovni, ceny jsou také velmi příznivé. Vřele doporučuji."</p>
+                <div class="testimonial-footer">
+                    <div class="star-rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p><strong>- Michal Osička</strong></p>
+                </div>
             </div>
             <div class="testimonial-item">
                 <i class="bi bi-chat-quote"></i>
-                <p>"Rychlá a profesionální montáž pneumatik."</p>
-                <p><strong>- Petra Dvořáková</strong></p>
+                <p>"V nouzi nenechal a pomohl. Ochotný člověk který Vám vyjde vstříc když potřebujete a nemůžete sehnat pneuservis jinde. Tady vás nikdy neodmitne. Za mne 100% spokojenost"</p>
+                <div class="testimonial-footer">
+                    <div class="star-rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p><strong>- Miroslav Sedlacek</strong></p>
+                </div>
             </div>
             <div class="testimonial-item">
                 <i class="bi bi-chat-quote"></i>
-                <p>"Skvělý servis a příjemný personál. Doporučuji!"</p>
-                <p><strong>- Jan Novák</strong></p>
+                <p>"Jezdím sem už 4 roky pravidelně přezouvat auto a maximální spokojenost."</p>
+                <div class="testimonial-footer">
+                    <div class="star-rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fil"></i>
+                    </div>
+                    <p><strong>- Lukáš Grobarčík</strong></p>
+                </div>
             </div>
             <div class="testimonial-item">
                 <i class="bi bi-chat-quote"></i>
-                <p>"Skvělý servis a příjemný personál. Doporučuji!"</p>
-                <p><strong>- Jan Novák</strong></p>
+                <p>"Pneumatiky super, skvělý přístup, pokaždé dobře odvedená práce, všem vřele doporučuji!!!!"</p>
+                <div class="testimonial-footer">
+                    <div class="star-rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <p><strong>- Nikola Bazantova</strong></p>
+                </div>
             </div>
         </div>
     </section>
@@ -352,111 +388,109 @@
 
     <script type="module" src="js/main.js"></script>
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "AutoRepair",
-      "name": "Grant Pneu",
-      "image": "/public/prodejna.png",
-      "description": "Profesionální pneuservis v Pravlově nabízející kompletní služby pneuservisu, přezutí a opravy pneumatik.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Pravlov 180",
-        "addressLocality": "Pravlov",
-        "postalCode": "664 64",
-        "addressCountry": "CZ"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 49.052764387008786,
-        "longitude": 16.479972175973586
-      },
-      "openingHours": "Mo-Fr 09:00-18:00",
-      "telephone": "+420606123254",
-      "priceRange": "$$",
-      "email": ["grantpneu@seznam.cz", "info@grantpneu.cz"],
-      "url": "https://grantpneu.cz",
-      "sameAs": [
-        "https://www.facebook.com/grantpneu",
-        "https://www.instagram.com/grantpneu"
-      ],
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Pneuservisní služby",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Montáž pneumatik",
-              "description": "Kompletní pneuservis pro osobní i nákladní vozidla",
-              "price": "500",
-              "priceCurrency": "CZK"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Oprava pneumatik",
-              "description": "Opravy pneumatik všech typů",
-              "price": "1000",
-              "priceCurrency": "CZK"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Kompletní pneuservis",
-              "description": "Kompletní servisní služby pro vaše pneumatiky",
-              "price": "1200",
-              "priceCurrency": "CZK"
-            }
-          }
-        ]
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "5000"
-      },
-      "review": [
         {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Jan Novák"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "reviewBody": "Skvělý servis a příjemný personál. Doporučuji!"
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Petra Dvořáková"
-          },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          },
-          "reviewBody": "Rychlá a profesionální montáž pneumatik."
+            "@context": "https://schema.org",
+            "@type": "AutoRepair",
+            "name": "Grant Pneu",
+            "image": "/public/prodejna.png",
+            "description": "Profesionální pneuservis v Pravlově nabízející kompletní služby pneuservisu, přezutí a opravy pneumatik.",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Pravlov 180",
+                "addressLocality": "Pravlov",
+                "postalCode": "664 64",
+                "addressCountry": "CZ"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 49.052764387008786,
+                "longitude": 16.479972175973586
+            },
+            "openingHours": "Mo-Fr 09:00-18:00",
+            "telephone": "+420606123254",
+            "priceRange": "$$",
+            "email": ["grantpneu@seznam.cz", "info@grantpneu.cz"],
+            "url": "https://grantpneu.cz",
+            "sameAs": [
+                "https://www.facebook.com/grantpneu",
+                "https://www.instagram.com/grantpneu"
+            ],
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Pneuservisní služby",
+                "itemListElement": [{
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Montáž pneumatik",
+                            "description": "Kompletní pneuservis pro osobní i nákladní vozidla",
+                            "price": "500",
+                            "priceCurrency": "CZK"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Oprava pneumatik",
+                            "description": "Opravy pneumatik všech typů",
+                            "price": "1000",
+                            "priceCurrency": "CZK"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Kompletní pneuservis",
+                            "description": "Kompletní servisní služby pro vaše pneumatiky",
+                            "price": "1200",
+                            "priceCurrency": "CZK"
+                        }
+                    }
+                ]
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "5000"
+            },
+            "review": [{
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Jan Novák"
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "reviewBody": "Skvělý servis a příjemný personál. Doporučuji!"
+                },
+                {
+                    "@type": "Review",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Petra Dvořáková"
+                    },
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5"
+                    },
+                    "reviewBody": "Rychlá a profesionální montáž pneumatik."
+                }
+            ],
+            "areaServed": {
+                "@type": "City",
+                "name": "Pravlov",
+                "containedInPlace": {
+                    "@type": "AdministrativeArea",
+                    "name": "Jihomoravský kraj"
+                }
+            },
+            "paymentAccepted": ["cash", "credit card"],
+            "currenciesAccepted": "CZK"
         }
-      ],
-      "areaServed": {
-        "@type": "City",
-        "name": "Pravlov",
-        "containedInPlace": {
-          "@type": "AdministrativeArea",
-          "name": "Jihomoravský kraj"
-        }
-      },
-      "paymentAccepted": ["cash", "credit card"],
-      "currenciesAccepted": "CZK"
-    }
     </script>
 </body>
 
