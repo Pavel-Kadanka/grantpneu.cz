@@ -38,11 +38,12 @@
     border-radius: var(--border-radius);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .service-item-back {
     transform: rotateY(180deg);
+    justify-content: center;
 }
 
 .service-item i {

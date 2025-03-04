@@ -15,12 +15,12 @@
     <meta name="author" content="Grant Pneu">
     <meta name="robots" content="index, follow">
 
-    <link rel="icon" type="icon" href="public/tires_black.png">
+    <link rel="icon" type="icon" href="public/tires_black.webp">
 
     <!-- Open Graph tags for social media -->
     <meta property="og:title" content="Grant Pneu - Profesionální pneuservis Pravlov">
     <meta property="og:description" content="Kompletní služby pneuservisu včetně přezutí a oprav pneumatik. Kvalitní služby za rozumné ceny.">
-    <meta property="og:image" content="/public/prodejna.png">
+    <meta property="og:image" content="/public/prodejna.webp">
     <meta property="og:url" content="https://grantpneu.cz">
 
     <!-- Canonical URL to prevent duplicate content -->
@@ -33,8 +33,8 @@
             <div id="menu">
                 <div id="logo">
                     <h1><a href="/">Grantpneu.cz</a></h1>
-                    <img class="white-logo" src="/public/tires_white.png" alt="Logo">
-                    <img class="black-logo" src="/public/tires_black.png" alt="Logo">
+                    <img class="white-logo" src="/public/tires_white.webp" alt="Logo">
+                    <img class="black-logo" src="/public/tires_black.webp" alt="Logo">
                 </div>
                 <ul>
                     <li><a href="#sluzby">Služby</a></li>
@@ -64,8 +64,8 @@
                     </div>
                     <div id="logo">
                         <span>GrantPneu</span>
-                        <img class="white-logo" src="/public/tires_white.png" alt="Logo">
-                        <img class="black-logo" src="/public/tires_black.png" alt="Logo">
+                        <img class="white-logo" src="/public/tires_white.webp" alt="Logo">
+                        <img class="black-logo" src="/public/tires_black.webp" alt="Logo">
                     </div>
                     <div id="theme-mobile">
                         <button id="theme-toggle" aria-label="Toggle light mode">
@@ -91,7 +91,7 @@
                 <a href="#sluzby" class="cta-button">Naše služby <i class="bi bi-arrow-right"></i></a>
                 <div class="hero-icons">
                     <div class="icon-item">
-                        <i><img src="public/tire.png" alt=""></i>
+                        <i><img src="public/tire.webp" alt=""></i>
                         <p>Pneuservis</p>
                     </div>
                     <div class="icon-item">
@@ -105,7 +105,7 @@
                 </div>
             </div>
             <div class="hero-image">
-                <img src="/public/car.png" alt="Ilustrační auto" class="floating">
+                <img src="/public/car.webp" alt="Ilustrační auto" class="floating">
             </div>
         </div>
     </header>
@@ -118,14 +118,14 @@
                     <div class="service-item-inner">
                         <div class="service-item-front">
                             <div class="service-item-card">
-                                <img src="/public/grantpneu-cz_03.jpg" alt="Pneumatiky">
+                                <img src="/public/grantpneu-cz_03.webp" alt="Pneumatiky">
                                 <i class="bi bi-truck"></i>
                                 <h3>Pneuservis</h3>
                                 <p>Kompletní pneuservis pro osobní i nákladní vozidla. Rychle a profesionálně.</p>
-                                <div class="learn-more">
-                                    <a>Více informací</a>
-                                    <i class="bi bi-arrow-right"></i>
-                                </div>
+                            </div>
+                            <div class="learn-more">
+                                <a>Více informací</a>
+                                <i class="bi bi-arrow-right"></i>
                             </div>
                         </div>
                         <div class="service-item-back">
@@ -144,14 +144,14 @@
                     <div class="service-item-inner">
                         <div class="service-item-front">
                             <div class="service-item-card">
-                                <img src="/public/9199759.png" alt="Servis">
+                                <img src="/public/flat-tire.webp" alt="Oporava pneumatik">
                                 <i class="bi bi-tools"></i>
                                 <h3>Oprava pneumatik</h3>
                                 <p>Opravy pneumatik všech typů. Spolehněte se na naši profesionalitu</p>
-                                <div class="learn-more">
-                                    <a>Více informací</a>
-                                    <i class="bi bi-arrow-right"></i>
-                                </div>
+                            </div>
+                            <div class="learn-more">
+                                <a>Více informací</a>
+                                <i class="bi bi-arrow-right"></i>
                             </div>
                         </div>
                         <div class="service-item-back">
@@ -170,14 +170,14 @@
                     <div class="service-item-inner">
                         <div class="service-item-front">
                             <div class="service-item-card">
-                                <img src="/public/geometrie.jpg" alt="Geometrie">
+                                <img src="/public/tire-change.webp" alt="Geometrie">
                                 <i class="bi bi-gear"></i>
                                 <h3>Přezutí pneumatik</h3>
                                 <p>Sezónní přezutí pneumatik s precizním provedením.</p>
-                                <div class="learn-more">
-                                    <a>Více informací</a>
-                                    <i class="bi bi-arrow-right"></i>
-                                </div>
+                            </div>
+                            <div class="learn-more">
+                                <a>Více informací</a>
+                                <i class="bi bi-arrow-right"></i>
                             </div>
                         </div>
                         <div class="service-item-back">
@@ -209,7 +209,7 @@
                 <p>Naše moderně vybavená dílna a zkušený tým zajišťují, že vaše vozidlo je v těch nejlepších rukou.</p>
             </div>
             <div class="about-image">
-                <img src="/public/prodejna.png" alt="Naše dílna">
+                <img src="/public/prodejna.webp" alt="Naše dílna">
             </div>
         </div>
         <div class="milestones">
@@ -392,7 +392,7 @@
             "@context": "https://schema.org",
             "@type": "AutoRepair",
             "name": "Grant Pneu",
-            "image": "/public/prodejna.png",
+            "image": "/public/prodejna.webp",
             "description": "Profesionální pneuservis v Pravlově nabízející kompletní služby pneuservisu, přezutí a opravy pneumatik.",
             "address": {
                 "@type": "PostalAddress",
