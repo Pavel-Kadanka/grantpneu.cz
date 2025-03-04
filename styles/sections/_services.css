@@ -110,8 +110,21 @@
         min-height: 500px;
     }
 }
+
 @media (max-width: 1564px) {
     .service-item {
         min-height: 475px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .service-item {
+        min-height: 450px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .service-item {
+        min-height: 400px;
     }
 }

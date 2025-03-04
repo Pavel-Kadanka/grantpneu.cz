@@ -1,10 +1,12 @@
 export function rotate(card) {
     const serviceItemInner = card.querySelector('.service-item-inner');
+
     serviceItemInner.style.transform = 'rotateY(180deg)';
 }
 
 export function rotateback(card) {
     const serviceItemInner = card.querySelector('.service-item-inner');
+
     serviceItemInner.style.transform = 'rotateY(0deg)';
 } 
 

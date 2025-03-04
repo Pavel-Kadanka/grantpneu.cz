@@ -61,7 +61,7 @@
 }
 
 .cta-button {
-    background-color: white;
+    background-color: var(--color-text);
     color: var(--color-primary);
     padding: 12px 24px;
     border-radius: 25px;
