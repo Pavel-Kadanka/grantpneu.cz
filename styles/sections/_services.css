@@ -104,6 +104,9 @@
     .service-item img {
         display: none;
     }
+    .service-item-front {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 2048px) {
