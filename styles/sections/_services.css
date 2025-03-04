@@ -100,15 +100,6 @@
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
-    .service-item img {
-        display: none;
-    }
-    .service-item-front {
-        justify-content: center;
-    }
-}
-
 @media (max-width: 2048px) {
     .service-item {
         min-height: 500px;
@@ -130,5 +121,13 @@
 @media (max-width: 1024px) {
     .service-item {
         min-height: 400px;
+    }
+}
+@media (max-width: 768px) {
+    .service-item img {
+        display: none;
+    }
+    .service-item {
+        min-height: 350px;
     }
 }
