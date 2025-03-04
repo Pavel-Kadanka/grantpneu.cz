@@ -27,8 +27,10 @@ nav {
     width: auto;
 }
 
-#logo h1 {
+#logo h1 a {
     font-size: 3.1rem;
+    color: white;
+    text-decoration: none;
     font-family: var(--font-display);
     font-weight: 400;
 }

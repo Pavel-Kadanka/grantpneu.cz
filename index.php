@@ -32,7 +32,7 @@
         <nav>
             <div id="menu">
                 <div id="logo">
-                    <h1>Grantpneu.cz</h1>
+                    <h1><a href="/">Grantpneu.cz</a></h1>
                     <img class="white-logo" src="/public/tires_white.png" alt="Logo">
                     <img class="black-logo" src="/public/tires_black.png" alt="Logo">
                 </div>
@@ -304,7 +304,7 @@
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fil"></i>
+                        <i class="bi bi-star-fill"></i>
                     </div>
                     <p><strong>- Lukáš Grobarčík</strong></p>
                 </div>
