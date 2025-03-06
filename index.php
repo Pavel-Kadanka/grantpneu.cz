@@ -112,82 +112,79 @@
 
     <section id="sluzby">
         <h2>Služby</h2>
-        <div class="service-content">
-            <div class="service-list">
-                <div class="service-item">
-                    <div class="service-item-inner">
-                        <div class="service-item-front">
-                            <div class="service-item-card">
-                                <img src="/public/grantpneu-cz_03.jpg" alt="Pneumatiky">
-                                <i class="bi bi-truck"></i>
-                                <h3>Pneuservis</h3>
-                                <p>Kompletní pneuservis pro osobní i nákladní vozidla. Rychle a profesionálně.</p>
-                                <div class="learn-more">
-                                    <a>Více informací</a>
-                                    <i class="bi bi-arrow-right"></i>
-                                </div>
-                            </div>
+        <div class="service-grid">
+            <div class="service-card js-flip-card">
+                <div class="service-card__inner">
+                    <div class="service-card__face is-visible">
+                        <img src="/public/grantpneu-cz_03.jpg" alt="Pneumatiky">
+                        <i class="bi bi-truck"></i>
+                        <h3>Pneuservis</h3>
+                        <p>Kompletní pneuservis pro osobní i nákladní vozidla. Rychle a profesionálně.</p>
+                        <div class="learn-more flip-trigger">
+                            <a>Více informací</a>
+                            <i class="bi bi-arrow-right"></i>
                         </div>
-                        <div class="service-item-back">
-                            <div class="service-item-card">
-                                <h3>Pneuservis</h3>
-                                <p>Nabízíme širokou škálu služeb v oblasti pneuservisu, včetně výměny pneumatik. Věnujeme se jak osobním, SUV, offroad, dodávkám. Přijďte a přesvědčte se sami!</p>
-                                <div class="learn-more">
-                                    <a>Zpět</a>
-                                    <i class="bi bi-arrow-left"></i>
-                                </div>
+                    </div>
+                    <div class="service-card__face service-card__face--back">
+                        <h3>Pneuservis</h3>
+                        <p>Nabízíme širokou škálu služeb v oblasti pneuservisu, včetně výměny pneumatik. Věnujeme se jak
+                            osobním, SUV, offroad, dodávkám. Přijďte a přesvědčte se sami!</p>
+                        <div class="learn-more flip-trigger">
+                            <div class="learn-more flip-btn">
+                                <a>Zpět</a>
+                                <i class="bi bi-arrow-left"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="service-item">
-                    <div class="service-item-inner">
-                        <div class="service-item-front">
-                            <div class="service-item-card">
-                                <img src="/public/9199759.png" alt="Servis">
-                                <i class="bi bi-tools"></i>
-                                <h3>Oprava pneumatik</h3>
-                                <p>Opravy pneumatik všech typů. Spolehněte se na naši profesionalitu</p>
-                                <div class="learn-more">
-                                    <a>Více informací</a>
-                                    <i class="bi bi-arrow-right"></i>
-                                </div>
-                            </div>
+            </div>
+
+            <div class="service-card js-flip-card">
+                <div class="service-card__inner">
+                    <div class="service-card__face is-visible">
+                        <img src="/public/geometrie.jpg" alt="Geometrie">
+                        <i class="bi bi-gear"></i>
+                        <h3>Oprava pneumatik</h3>
+                        <p>Opravy pneumatik všech typů. Spolehněte se na naši profesionalitu</p>
+                        <div class="learn-more flip-trigger">
+                            <a>Více informací</a>
+                            <i class="bi bi-arrow-right"></i>
                         </div>
-                        <div class="service-item-back">
-                            <div class="service-item-card">
-                                <h3>Oprava pneumatik</h3>
-                                <p>Provádíme opravy pneumatik pro všechny druhy vozidel. Naše služby zahrnují opravy běhounu, bočnic a dalších částí pneumatik. Používáme kvalitní materiály a moderní techniky, které zaručují dlouhou životnost oprav. S námi budete opět na cestě v co nejkratším čase.</p>
-                                <div class="learn-more">
-                                    <a>Zpět</a>
-                                    <i class="bi bi-arrow-left"></i>
-                                </div>
+                    </div>
+                    <div class="service-card__face service-card__face--back">
+                        <h3>Oprava pneumatik</h3>
+                        <p>Provádíme opravy pneumatik pro všechny druhy vozidel. Naše služby zahrnují opravy běhounu, bočnic a dalších částí pneumatik. Používáme kvalitní materiály a moderní techniky, které zaručují dlouhou životnost oprav. S námi budete opět na cestě v co nejkratším čase.</p>
+                        <div class="learn-more flip-trigger">
+                            <div class="learn-more flip-btn">
+                                <a>Zpět</a>
+                                <i class="bi bi-arrow-left"></i>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="service-item">
-                    <div class="service-item-inner">
-                        <div class="service-item-front">
-                            <div class="service-item-card">
-                                <img src="/public/geometrie.jpg" alt="Geometrie">
-                                <i class="bi bi-gear"></i>
-                                <h3>Přezutí pneumatik</h3>
-                                <p>Sezónní přezutí pneumatik s precizním provedením.</p>
-                                <div class="learn-more">
-                                    <a>Více informací</a>
-                                    <i class="bi bi-arrow-right"></i>
-                                </div>
-                            </div>
+            </div>
+
+            <div class="service-card js-flip-card">
+                <div class="service-card__inner">
+                    <div class="service-card__face is-visible">
+                        <img src="/public/geometrie.jpg" alt="Geometrie">
+                        <i class="bi bi-gear"></i>
+                        <h3>Přezutí pneumatik</h3>
+                        <p>Sezónní přezutí pneumatik s precizním provedením.</p>
+                        <div class="learn-more flip-trigger">
+                            <a>Více informací</a>
+                            <i class="bi bi-arrow-right"></i>
                         </div>
-                        <div class="service-item-back">
-                            <div class="service-item-card">
-                                <h3>Přezutí pneumatik</h3>
-                                <p>Nabízíme profesionální přezutí pneumatik včetně jejich uskladnění. Přezouváme jak osobním, SUV, offroad, tak i dodávky. Dbáme na bezpečnost a komfort vaší jízdy. S námi budete vždy připraveni na každé roční období.</p>
-                                <div class="learn-more">
-                                    <a>Zpět</a>
-                                    <i class="bi bi-arrow-left"></i>
-                                </div>
+                    </div>
+                    <div class="service-card__face service-card__face--back">
+                        <h3>Přezutí pneumatik</h3>
+                        <p>Nabízíme profesionální přezutí pneumatik včetně jejich uskladnění. Přezouváme jak osobním,
+                            SUV, offroad, tak i dodávky. Dbáme na bezpečnost a komfort vaší jízdy. S námi budete vždy
+                            připraveni na každé roční období.</p>
+                        <div class="learn-more flip-trigger">
+                            <div class="learn-more flip-btn">
+                                <a>Zpět</a>
+                                <i class="bi bi-arrow-left"></i>
                             </div>
                         </div>
                     </div>
@@ -387,6 +384,7 @@
     </footer>
 
     <script type="module" src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",

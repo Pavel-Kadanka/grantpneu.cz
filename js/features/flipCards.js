@@ -1,37 +1,39 @@
-import { rotate, rotateback } from '../utils/animations.js';
-
 export function initFlipCards() {
-    // Initialize legacy flip card functionality
-    document.querySelectorAll('.service-item .learn-more').forEach(button => {
-        button.addEventListener('click', function (e) {
-            e.preventDefault();
-            const card = this.closest('.service-item');
-            if (this.textContent.includes('Více informací')) {
-                rotate(card);
-            } else {
-                rotateback(card);
-            }
+    const cardFlipDuration = 500;
+
+    // Set initial heights for all cards
+    $('.js-flip-card').each(function() {
+        const $card = $(this);
+        const frontHeight = $card.find('.service-card__face:first').outerHeight();
+        const backHeight = $card.find('.service-card__face:last').outerHeight();
+        const maxHeight = Math.max(frontHeight, backHeight);
+        
+        $card.height(maxHeight);
+    });
+
+    $('.flip-trigger').click(function(e) {
+        const $card = $(this).closest('.js-flip-card');
+        if ($card.data('flipping')) {
+            return false;
+        }
+        $card.data('flipping', true);
+        
+        $card.toggleClass('is-flipped');
+        window.setTimeout(function() {
+            $card.children().children().toggleClass('is-visible');
+            $card.data('flipping', false);
+        }, cardFlipDuration / 2);
+    });
+
+    // Update heights on window resize
+    $(window).on('resize', function() {
+        $('.js-flip-card').each(function() {
+            const $card = $(this);
+            const frontHeight = $card.find('.service-card__face:first').outerHeight();
+            const backHeight = $card.find('.service-card__face:last').outerHeight();
+            const maxHeight = Math.max(frontHeight, backHeight);
+            
+            $card.height(maxHeight);
         });
     });
-
-    // Initialize modern flip card functionality
-    const serviceItems = document.querySelectorAll('.service-item');
-    serviceItems.forEach(item => {
-        const frontButton = item.querySelector('.service-item-front .learn-more');
-        const backButton = item.querySelector('.service-item-back .learn-more');
-
-        if (frontButton) {
-            frontButton.addEventListener('click', (e) => {
-                e.stopPropagation();
-                item.classList.add('flipped');
-            });
-        }
-
-        if (backButton) {
-            backButton.addEventListener('click', (e) => {
-                e.stopPropagation();
-                item.classList.remove('flipped');
-            });
-        }
-    });
-} 
+}
