@@ -229,29 +229,75 @@
     </section>
 
     <section id="cenik">
-        <h2>Ceník</h2>
-        <div class="price-list">
-            <div class="price-item">
-                <i class="bi bi-cash"></i>
-                <h3>Montáž pneumatik</h3>
-                <p>od 500 Kč</p>
-                <p class="discount">10% sleva pro nové zákazníky!</p>
+        <h2>Ceník služeb</h2>
+        <div class="price-header">
+            <p>Platný od 1.1.2025 | Ceny včetně DPH</p>
+        </div>
+        
+        <div class="price-grid">
+            <div class="price-category">
+                <h3>Přezutí komplet</h3>
+                <div class="price-row">
+                    <span>Plechové disky s vyvážením</span>
+                    <span>500 Kč</span>
+                </div>
+                <div class="price-row">
+                    <span>Lité disky s vyvážením</span>
+                    <span>700 Kč</span>
+                </div>
             </div>
-            <div class="price-item">
-                <i class="bi bi-wrench"></i>
-                <h3>Oprava pneumatik</h3>
-                <p>od 1000 Kč</p>
+
+            <div class="price-category">
+                <h3>Osobní a SUV</h3>
+                <div class="price-row">
+                    <span>Ocelový disk</span>
+                    <span>800 Kč</span>
+                </div>
+                <div class="price-row">
+                    <span>Elektron do 17"</span>
+                    <span>1000 Kč</span>
+                </div>
+                <div class="price-row">
+                    <span>Elektron 18"</span>
+                    <span>1200 Kč</span>
+                </div>
             </div>
-            <div class="price-item">
-                <i class="bi bi-speedometer"></i>
-                <h3>Kompletní pneuservis</h3>
-                <p>od 1200 Kč</p>
+
+            <div class="price-category">
+                <h3>Ostatní vozidla</h3>
+                <div class="price-row">
+                    <span>Terénní SUV a offroad</span>
+                    <span>1200 Kč</span>
+                </div>
+                <div class="price-row">
+                    <span>Dodávky, VAN</span>
+                    <span>1200 Kč</span>
+                </div>
+                <div class="price-row">
+                    <span>Oprava pneumatiky</span>
+                    <span>300 Kč</span>
+                </div>
             </div>
         </div>
+
+        <div class="additional-services">
+            <div class="service-item">
+                <i class="bi bi-clock"></i>
+                <h4>Otevírací doba</h4>
+                <p>Středa - Sobota</p>
+                <p>9:00 - 13:00</p>
+            </div>
+            <div class="service-item">
+                <i class="bi bi-house"></i>
+                <h4>Pneuhotel</h4>
+                <p>100 Kč/měsíc</p>
+                <p class="small-text">(sada 4 pneumatik)</p>
+            </div>
+        </div>
+
         <div class="phone-order-cta">
-            <p class="phone-order-text">Objednávky probíhají <strong>pouze po telefonu</strong></p>
-            <p class="phone-order-subtext">Zavolejte nám a domluvte si termín ještě dnes!</p>
-            <a href="tel:+420123456789" class="cta-button">
+            <p class="phone-order-text">Objednávky přijímáme <strong>pouze telefonicky</strong></p>
+            <a href="tel:+420606123254" class="cta-button">
                 +420 606 123 254 <i class="bi bi-telephone phone-icon"></i>
             </a>
         </div>
