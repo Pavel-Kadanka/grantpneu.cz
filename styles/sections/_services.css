@@ -1,87 +1,137 @@
-.service-list {
-    display: grid;
-    grid-auto-rows: 1fr; /* Makes all rows the same height */
+:root {
+    --card-flip-duration: 0.8s;
 }
 
-.service-item {
-    perspective: 1000px;
-    background-color: var(--color-bg-secondary);
-    border-radius: var(--border-radius);
-    padding: 20px;
-    text-align: center;
-    min-height: 425px;
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+
+.service-card {
+    perspective: 600px;
     position: relative;
+    width: 100%;
+    background: var(--color-bg-secondary);
+    border-radius: 8px;
     overflow: hidden;
 }
 
-
-.service-item-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
+.service-card__inner {
     transform-style: preserve-3d;
-    cursor: pointer;
-}
-
-.service-item.flipped .service-item-inner {
-    transform: rotateY(180deg);
-}
-
-.service-item-front, .service-item-back {
-    position: absolute;
-    width: 100%;
+    animation: flip-back var(--card-flip-duration) linear both;
     height: 100%;
+}
+
+.service-card.is-flipped .service-card__inner {
+    animation: flip-forward var(--card-flip-duration) linear both;
+}
+
+.service-card__face {
     backface-visibility: hidden;
-    background-color: var(--color-bg-secondary);
-    border-radius: var(--border-radius);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 8px;
+    background: var(--color-bg-secondary);
+    overflow-y: auto;
+    box-sizing: border-box;
 }
 
-.service-item-back {
-    transform: rotateY(180deg);
-    justify-content: center;
+.service-card__content {
+    width: 90%;
 }
 
-.service-item i {
-    font-size: 2rem;
-    color: var(--color-primary);
-    margin-left: 10px;
-}
-
-.service-item img {
+.service-card__face img {
     width: 100%;
     object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
 }
 
-.service-item h3 {
+.service-card__face i {
     font-size: 1.5rem;
-    margin-bottom: 10px;
+    color: var(--color-primary);
 }
 
-.service-item p {
+.service-card__face h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.service-card__face p {
     font-size: 1rem;
-    margin-bottom: 10px;
+    margin: 0;
 }
 
-.service-item .learn-more {
+.service-card__face.is-visible {
+    position: static;
+}
+
+.service-card__face--back {
+    box-shadow: none;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.flip-trigger {
+    margin: 1rem auto;
+}
+
+@keyframes flip-forward {
+    0% {
+        transform: rotateY(0);
+    }
+    70% {
+        transform: rotateY(200deg);
+    }
+    100% {
+        transform: rotateY(180deg);
+    }
+}
+
+@keyframes flip-back {
+    0% {
+        transform: rotateY(180deg);
+    }
+    70% {
+        transform: rotateY(-20deg);
+    }
+    100% {
+        transform: rotateY(0);
+    }
+}
+
+#services {
+    box-sizing: border-box;
+}
+
+.learn-more {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--color-primary);
-    text-decoration: none;
-    transition: color 0.3s;
-    margin-top: auto;
+    gap: 0.5rem;
+    margin: 0.25rem auto;
     cursor: pointer;
+    color: var(--color-primary);
 }
 
-.service-item .learn-more:hover {
-    color: var(--color-primary-darker);
+.learn-more a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.learn-more:hover {
+    opacity: 0.8;
 }
 
 .additional-service {
@@ -100,34 +150,17 @@
     font-weight: bold;
 }
 
-@media (max-width: 2048px) {
-    .service-item {
-        min-height: 500px;
+/* Add media query for responsive design */
+@media (max-width: 992px) {
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 1564px) {
-    .service-item {
-        min-height: 475px;
-    }
-}
-
-@media (max-width: 1366px) {
-    .service-item {
-        min-height: 450px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .service-item {
-        min-height: 400px;
-    }
-}
 @media (max-width: 768px) {
-    .service-item img {
-        display: none;
-    }
-    .service-item {
-        min-height: 350px;
+    .service-grid {
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 0;
     }
 }
