@@ -116,9 +116,11 @@
             <div class="service-card js-flip-card">
                 <div class="service-card__inner">
                     <div class="service-card__face is-visible">
-                        <img src="/public/grantpneu-cz_03.webp" alt="Pneumatiky">
-                        <h3><i class="bi bi-truck"></i> Pneuservis</h3>
-                        <p>Kompletní pneuservis pro osobní i nákladní vozidla. Rychle a profesionálně.</p>
+                        <div>
+                            <img src="/public/grantpneu-cz_03.webp" alt="Pneumatiky">
+                            <h3><i class="bi bi-truck"></i> Pneuservis</h3>
+                            <p>Kompletní pneuservis pro osobní i nákladní vozidla. Rychle a profesionálně.</p>
+                        </div>
                         <div class="learn-more flip-trigger">
                             <a>Více informací</a>
                             <i class="bi bi-arrow-right"></i>
@@ -141,9 +143,11 @@
             <div class="service-card js-flip-card">
                 <div class="service-card__inner">
                     <div class="service-card__face is-visible">
-                        <img src="/public/flat-tire.webp" alt="Píchlá guma">
-                        <h3><i class="bi bi-tools"></i> Oprava pneumatik</h3>
-                        <p>Opravy pneumatik všech typů. Spolehněte se na naši profesionalitu</p>
+                        <div>
+                            <img src="/public/flat-tire.webp" alt="Píchlá guma">
+                            <h3><i class="bi bi-tools"></i> Oprava pneumatik</h3>
+                            <p>Opravy pneumatik všech typů. Spolehněte se na naši profesionalitu</p>
+                        </div>
                         <div class="learn-more flip-trigger">
                             <a>Více informací</a>
                             <i class="bi bi-arrow-right"></i>
@@ -165,9 +169,11 @@
             <div class="service-card js-flip-card">
                 <div class="service-card__inner">
                     <div class="service-card__face is-visible">
-                        <img src="/public/tire-change.webp" alt="Přezutí">
-                        <h3><i class="bi bi-gear"></i> Přezutí pneumatik</h3>
-                        <p>Sezónní přezutí pneumatik s precizním provedením.</p>
+                        <div>
+                            <img src="/public/tire-change.webp" alt="Přezutí">
+                            <h3><i class="bi bi-gear"></i> Přezutí pneumatik</h3>
+                            <p>Sezónní přezutí pneumatik s precizním provedením.</p>
+                        </div>
                         <div class="learn-more flip-trigger">
                             <a>Více informací</a>
                             <i class="bi bi-arrow-right"></i>
@@ -175,9 +181,7 @@
                     </div>
                     <div class="service-card__face service-card__face--back">
                         <h3><i class="bi bi-gear"></i>  Přezutí pneumatik</h3>
-                        <p>Nabízíme profesionální přezutí pneumatik včetně jejich uskladnění. Přezouváme jak osobním,
-                            SUV, offroad, tak i dodávky. Dbáme na bezpečnost a komfort vaší jízdy. S námi budete vždy
-                            připraveni na každé roční období.</p>
+                        <p>Nabízíme kompletní služby přezutí pneumatik zahrnující: demontáž z vozu, montáž na vůz, přezutí a vyvážení včetně závaží. Přezouváme osobní vozy, SUV, offroad i dodávky. Dbáme na bezpečnost a komfort vaší jízdy.</p>
                         <div class="learn-more flip-trigger">
                             <div class="learn-more flip-btn">
                                 <a>Zpět</a>
@@ -236,19 +240,7 @@
         
         <div class="price-grid">
             <div class="price-category">
-                <h3>Přezutí komplet</h3>
-                <div class="price-row">
-                    <span>Plechové disky s vyvážením</span>
-                    <span>500 Kč</span>
-                </div>
-                <div class="price-row">
-                    <span>Lité disky s vyvážením</span>
-                    <span>700 Kč</span>
-                </div>
-            </div>
-
-            <div class="price-category">
-                <h3>Osobní a SUV</h3>
+            <h3>Osobní a SUV - 4x4</h3>
                 <div class="price-row">
                     <span>Ocelový disk</span>
                     <span>800 Kč</span>
@@ -264,7 +256,7 @@
             </div>
 
             <div class="price-category">
-                <h3>Ostatní vozidla</h3>
+            <h3>Ostatní vozidla - 4x4</h3>
                 <div class="price-row">
                     <span>Terénní SUV a offroad</span>
                     <span>1200 Kč</span>
@@ -272,6 +264,18 @@
                 <div class="price-row">
                     <span>Dodávky, VAN</span>
                     <span>1200 Kč</span>
+                </div>
+            </div>
+
+            <div class="price-category">
+                <h3>Další služby</h3>
+                <div class="price-row">
+                    <span>Plechové disky s vyvážením</span>
+                    <span>500 Kč</span>
+                </div>
+                <div class="price-row">
+                    <span>Lité disky s vyvážením</span>
+                    <span>700 Kč</span>
                 </div>
                 <div class="price-row">
                     <span>Oprava pneumatiky</span>
