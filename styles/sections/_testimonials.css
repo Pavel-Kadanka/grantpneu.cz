@@ -41,3 +41,57 @@
     font-size: 1.2rem;
     margin: 0 2px;
 }
+
+/* Grid layout pro recenze */
+.testimonial-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 20px;
+}
+
+/* Media query pro střední obrazovky */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .testimonial-list {
+        grid-template-columns: 1fr 1fr; /* Zobrazí 2 sloupce místo 4 */
+        gap: 1.5rem;
+    }
+    
+    .testimonial-item {
+        margin-bottom: 1rem; /* Přidáno více prostoru mezi řádky */
+        transform: none; /* Vypnutí hover efektu posunutí nahoru */
+    }
+    
+    .testimonial-item:hover {
+        transform: none; /* Vypnutí hover efektu posunutí nahoru */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Zrušení margin-bottom pro poslední řádek */
+    .testimonial-item:nth-last-child(-n+2) {
+        margin-bottom: 0;
+    }
+}
+
+/* Media query pro mobilní zařízení */
+@media (max-width: 768px) {
+    .testimonial-list {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 10px;
+    }
+    
+    .testimonial-item {
+        margin-bottom: 1rem;
+        transform: none; /* Vypnutí hover efektu posunutí nahoru */
+    }
+    
+    .testimonial-item:hover {
+        transform: none; /* Vypnutí hover efektu posunutí nahoru */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .testimonial-item:last-child {
+        margin-bottom: 0;
+    }
+}
