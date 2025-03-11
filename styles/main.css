@@ -20,6 +20,7 @@
 @import 'sections/_pricing.css';
 @import 'sections/_testimonials.css';
 @import 'sections/_contact.css';
+@import 'sections/_footer.css';
 
 /* Utils */
 @import 'utils/_animations.css';

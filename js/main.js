@@ -1,7 +1,6 @@
 import { initSmoothScrolling } from './features/smoothScroll.js';
 import { initScrollAnimations } from './features/scrollAnimations.js';
 import { initContactForm } from './features/contactForm.js';
-import { initFlipCards } from './features/flipCards.js';
 import { menuAnimationIn, menuAnimationReset } from './utils/animations.js';
 import { initThemeToggle } from './features/modeChange.js';
 
@@ -9,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
     initSmoothScrolling();
     initScrollAnimations();
     initContactForm();
-    initFlipCards();
     initThemeToggle();
 
     const checkbox = document.querySelector('.checkbox');
@@ -27,6 +25,13 @@ document.addEventListener('DOMContentLoaded', function() {
     menuItems.forEach(menuItem => {
         menuItem.addEventListener('click', (e) => {
             menuAnimationReset();
+        });
+    });
+
+    document.querySelectorAll('.service-toggle').forEach(button => {
+        button.addEventListener('click', () => {
+            const card = button.closest('.service-card');
+            card.classList.toggle('expanded');
         });
     });
 });

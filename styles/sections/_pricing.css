@@ -211,3 +211,57 @@
         grid-template-columns: 1fr;
     }
 }
+
+.price-hours {
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-hours-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    width: 60%;
+}
+
+.price-hours-row:first-child {
+    border-bottom: 1px solid var(--color-text-light);
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.75rem;
+}
+
+.price-hours-row span {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--color-text);
+}
+
+.price-hours-row span:first-of-type {
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+
+.price-hours-row span:last-child {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+    .price-hours {
+        padding: 1rem;
+    }
+    
+    .price-hours-row {
+        width: 80%;
+        padding: 0.6rem;
+    }
+    
+    .price-hours-row span {
+        font-size: 0.9rem;
+    }
+}

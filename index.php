@@ -113,89 +113,47 @@
     <section id="sluzby">
         <h2>Služby</h2>
         <div class="service-grid">
-            <div class="service-card js-flip-card">
-                <div class="service-card__inner">
-                    <div class="service-card__face is-visible">
-                        <div>
-                            <img src="/public/grantpneu-cz_03.webp" alt="Pneumatiky">
-                            <h3><i class="bi bi-truck"></i> Pneuservis</h3>
-                            <p>Kompletní pneuservis pro osobní i nákladní vozidla. Rychle a profesionálně.</p>
-                        </div>
-                        <div class="learn-more flip-trigger">
-                            <a>Více informací</a>
-                            <i class="bi bi-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="service-card__face service-card__face--back">
-                        <h3><i class="bi bi-truck"></i>  Pneuservis</h3>
-                        <p>Nabízíme širokou škálu služeb v oblasti pneuservisu, včetně výměny pneumatik. Věnujeme se jak
-                            osobním, SUV, offroad, dodávkám. Přijďte a přesvědčte se sami!</p>
-                        <div class="learn-more flip-trigger">
-                            <div class="learn-more flip-btn">
-                                <a>Zpět</a>
-                                <i class="bi bi-arrow-left"></i>
-                            </div>
-                        </div>
-                    </div>
+            <div class="service-card">
+                <img src="/public/grantpneu-cz_03.webp" alt="Pneumatiky">
+                <div class="service-content">
+                    <h3><i class="bi bi-truck"></i> Pneuservis</h3>
+                    <p class="service-preview">Kompletní pneuservis pro osobní i nákladní vozidla. Rychle a profesionálně.</p>
+                    <p class="service-detail">Nabízíme širokou škálu služeb v oblasti pneuservisu, včetně výměny pneumatik. Věnujeme se jak osobním, SUV, offroad, dodávkám. Přijďte a přesvědčte se sami!</p>
+                    <button class="service-toggle">
+                        <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
+                        <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
+                    </button>
                 </div>
             </div>
 
-            <div class="service-card js-flip-card">
-                <div class="service-card__inner">
-                    <div class="service-card__face is-visible">
-                        <div>
-                            <img src="/public/flat-tire.webp" alt="Píchlá guma">
-                            <h3><i class="bi bi-tools"></i> Oprava pneumatik</h3>
-                            <p>Opravy pneumatik všech typů. Spolehněte se na naši profesionalitu</p>
-                        </div>
-                        <div class="learn-more flip-trigger">
-                            <a>Více informací</a>
-                            <i class="bi bi-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="service-card__face service-card__face--back">
-                        <h3><i class="bi bi-tools"></i>  Oprava pneumatik</h3>
-                        <p>Provádíme opravy pneumatik pro všechny druhy vozidel. Naše služby zahrnují opravy běhounu, bočnic a dalších částí pneumatik. Používáme kvalitní materiály a moderní techniky, které zaručují dlouhou životnost oprav.</p>
-                        <div class="learn-more flip-trigger">
-                            <div class="learn-more flip-btn">
-                                <a>Zpět</a>
-                                <i class="bi bi-arrow-left"></i>
-                            </div>
-                        </div>
-                    </div>
+            <div class="service-card">
+                <img src="/public/flat-tire.webp" alt="Píchlá guma">
+                <div class="service-content">
+                    <h3><i class="bi bi-tools"></i> Oprava pneumatik</h3>
+                    <p class="service-preview">Opravy pneumatik všech typů. Spolehněte se na naši profesionalitu.</p>
+                    <p class="service-detail">Provádíme opravy pneumatik pro všechny druhy vozidel. Naše služby zahrnují opravy běhounu, bočnic a dalších částí pneumatik. Používáme kvalitní materiály a moderní techniky, které zaručují dlouhou životnost oprav.</p>
+                    <button class="service-toggle">
+                        <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
+                        <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
+                    </button>
                 </div>
             </div>
 
-            <div class="service-card js-flip-card">
-                <div class="service-card__inner">
-                    <div class="service-card__face is-visible">
-                        <div>
-                            <img src="/public/tire-change.webp" alt="Přezutí">
-                            <h3><i class="bi bi-gear"></i> Přezutí pneumatik</h3>
-                            <p>Sezónní přezutí pneumatik s precizním provedením.</p>
-                        </div>
-                        <div class="learn-more flip-trigger">
-                            <a>Více informací</a>
-                            <i class="bi bi-arrow-right"></i>
-                        </div>
-                    </div>
-                    <div class="service-card__face service-card__face--back">
-                        <h3><i class="bi bi-gear"></i>  Přezutí pneumatik</h3>
-                        <p>Nabízíme kompletní služby přezutí pneumatik zahrnující: demontáž z vozu, montáž na vůz, přezutí a vyvážení včetně závaží. Přezouváme osobní vozy, SUV, offroad i dodávky. Dbáme na bezpečnost a komfort vaší jízdy.</p>
-                        <div class="learn-more flip-trigger">
-                            <div class="learn-more flip-btn">
-                                <a>Zpět</a>
-                                <i class="bi bi-arrow-left"></i>
-                            </div>
-                        </div>
-                    </div>
+            <div class="service-card">
+                <img src="/public/tire-change.webp" alt="Přezutí">
+                <div class="service-content">
+                    <h3><i class="bi bi-gear"></i> Přezutí pneumatik</h3>
+                    <p class="service-preview">Sezónní přezutí pneumatik s precizním provedením.</p>
+                    <p class="service-detail">Nabízíme kompletní služby přezutí pneumatik zahrnující: demontáž z vozu, montáž na vůz, přezutí a vyvážení včetně závaží. Přezouváme osobní vozy, SUV, offroad i dodávky. Dbáme na bezpečnost a komfort vaší jízdy.</p>
+                    <button class="service-toggle">
+                        <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
+                        <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
+                    </button>
                 </div>
             </div>
         </div>
         <p class="additional-service">Nabízíme také <strong>pneubazar</strong>, kde najdete široký výběr kvalitních pneumatik za výhodné ceny.</p>
-    <p class="additional-service">Dále provozujeme <strong>pneuhotel</strong>, kde vám bezpečně uskladníme vaše pneumatiky, když je zrovna nepotřebujete.</p>
-    </section>
-
+        <p class="additional-service">Dále provozujeme <strong>pneuhotel</strong>, kde vám bezpečně uskladníme vaše pneumatiky, když je zrovna nepotřebujete.</p>
     </section>
 
     <section id="o-nas">
@@ -240,45 +198,41 @@
         
         <div class="price-grid">
             <div class="price-category">
-            <h3>Osobní a SUV - 4x4</h3>
+                <h3>Přezutí komplet (4 ks)</h3>
                 <div class="price-row">
-                    <span>Ocelový disk</span>
+                    <span>Osobní, SUV - ocelový disk</span>
                     <span>800 Kč</span>
                 </div>
                 <div class="price-row">
-                    <span>Elektron do 17"</span>
-                    <span>1000 Kč</span>
+                    <span>Osobní, SUV - elektron do 17"</span>
+                    <span>1 000 Kč</span>
                 </div>
                 <div class="price-row">
-                    <span>Elektron 18"</span>
-                    <span>1200 Kč</span>
+                    <span>Osobní, SUV - elektron 18" a více</span>
+                    <span>1 200 Kč</span>
                 </div>
-            </div>
-
-            <div class="price-category">
-            <h3>Ostatní vozidla - 4x4</h3>
                 <div class="price-row">
                     <span>Terénní SUV a offroad</span>
-                    <span>1200 Kč</span>
+                    <span>1 200 Kč</span>
                 </div>
                 <div class="price-row">
-                    <span>Dodávky, VAN</span>
-                    <span>1200 Kč</span>
+                    <span>Dodávka, VAN</span>
+                    <span>1 200 Kč</span>
                 </div>
             </div>
 
             <div class="price-category">
                 <h3>Další služby</h3>
                 <div class="price-row">
-                    <span>Plechové disky s vyvážením</span>
+                    <span>4 ks plechový disk – vyvážení včetně závaží</span>
                     <span>500 Kč</span>
                 </div>
                 <div class="price-row">
-                    <span>Lité disky s vyvážením</span>
+                    <span>Přehození 4 ks ALU kol – vyvážení včetně závaží</span>
                     <span>700 Kč</span>
                 </div>
                 <div class="price-row">
-                    <span>Oprava pneumatiky</span>
+                    <span>Oprava pneu</span>
                     <span>300 Kč</span>
                 </div>
             </div>
@@ -288,8 +242,16 @@
             <div class="service-item">
                 <i class="bi bi-clock"></i>
                 <h4>Otevírací doba</h4>
-                <p>Středa - Sobota</p>
-                <p>9:00 - 13:00</p>
+                <div class="price-hours">
+                    <div class="price-hours-row">
+                        <span>Pondělí – Pátek</span>
+                        <span>9:00 – 17:00</span>
+                    </div>
+                    <div class="price-hours-row">
+                        <span>Sobota</span>
+                        <span>9:00 – 13:00</span>
+                    </div>
+                </div>
             </div>
             <div class="service-item">
                 <i class="bi bi-house"></i>
@@ -421,12 +383,8 @@
     </section>
 
     <footer>
-        <div class="social-media">
-            <a href="#"><i class="bi bi-facebook"></i></a>
-            <a href="#"><i class="bi bi-instagram"></i></a>
-            <a href="#"><i class="bi bi-twitter"></i></a>
-        </div>
-        <p>&copy; 2023 Grant Pneu. Všechna práva vyhrazena.</p>
+        <p>&copy; 2025 Grant Pneu. Všechna práva vyhrazena.</p>
+        <p class="developer-credit">Vytvořil <a href="https://kadanka.vercel.app" target="_blank" rel="noopener noreferrer">Pavel Kadaňka</a></p>
     </footer>
 
     <script type="module" src="js/main.js"></script>
