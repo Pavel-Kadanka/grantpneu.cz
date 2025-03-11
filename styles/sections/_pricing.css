@@ -180,6 +180,10 @@
     color: var(--color-primary);
 }
 
+.mobile {
+    display: none;
+}
+
 .small-text {
     font-size: 0.9rem;
     color: var(--color-text-secondary);
@@ -209,6 +213,9 @@
     
     .additional-services {
         grid-template-columns: 1fr;
+    }
+    .mobile {
+        display: block;
     }
 }
 

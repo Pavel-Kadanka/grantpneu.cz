@@ -224,11 +224,11 @@
             <div class="price-category">
                 <h3>Další služby</h3>
                 <div class="price-row">
-                    <span>4 ks plechový disk – vyvážení včetně závaží</span>
+                    <span>Přehození 4 ks plechový disk<br class="mobile"> – vyvážení včetně závaží</span>
                     <span>500 Kč</span>
                 </div>
                 <div class="price-row">
-                    <span>Přehození 4 ks ALU kol – vyvážení včetně závaží</span>
+                    <span>Přehození 4 ks ALU kol<br class="mobile"> – vyvážení včetně závaží</span>
                     <span>700 Kč</span>
                 </div>
                 <div class="price-row">
