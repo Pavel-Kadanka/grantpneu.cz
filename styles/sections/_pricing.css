@@ -192,12 +192,12 @@
 /* Media queries pro responzivitu */
 @media (min-width: 769px) and (max-width: 1024px) {
     .price-grid {
-        grid-template-columns: 1fr 1fr; /* Zobrazí 2 sloupce místo 3 */
+        grid-template-columns: 1fr 1fr;
         gap: 20px;
     }
     
-    .price-category:last-child {
-        grid-column: 1 / -1; /* Poslední kategorie se roztáhne přes oba sloupce */
+    .price-category {
+        grid-column: 1 / -1; /* This makes each category span both columns */
     }
     
     .additional-services {
@@ -259,9 +259,6 @@
 }
 
 @media (max-width: 768px) {
-    .price-hours {
-        padding: 1rem;
-    }
     
     .price-hours-row {
         width: 80%;

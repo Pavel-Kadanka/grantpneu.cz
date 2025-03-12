@@ -117,7 +117,7 @@
                 <img src="/public/grantpneu-cz_03.webp" alt="Pneumatiky">
                 <div class="service-content">
                     <h3><i class="bi bi-truck"></i> Pneuservis</h3>
-                    <p class="service-preview">Kompletní pneuservis pro osobní i nákladní vozidla. Rychle a profesionálně.</p>
+                    <p class="service-preview">Kompletní pneuservis pro osobní, suv i offroad vozidla. Rychle a profesionálně.</p>
                     <p class="service-detail">Nabízíme širokou škálu služeb v oblasti pneuservisu, včetně výměny pneumatik. Věnujeme se jak osobním, SUV, offroad, dodávkám. Přijďte a přesvědčte se sami!</p>
                     <button class="service-toggle">
                         <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
@@ -208,7 +208,7 @@
                     <span>1 000 Kč</span>
                 </div>
                 <div class="price-row">
-                    <span>Osobní, SUV - elektron 18" a více</span>
+                    <span>Osobní, SUV - elektron 18"+</span>
                     <span>1 200 Kč</span>
                 </div>
                 <div class="price-row">
