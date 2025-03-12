@@ -90,10 +90,6 @@ git clone https://github.com/Pavel-Kadanka/grandpneu.git
 - Open Graph tags
 - Canonical URLs
 
-## Contributing
-
-If you'd like to contribute, please fork the repository and create a pull request. You can also simply open an issue with the tag "enhancement".
-
 ## License
 
 All rights reserved. Unauthorized copying, distribution, or modification of this project is strictly prohibited.
