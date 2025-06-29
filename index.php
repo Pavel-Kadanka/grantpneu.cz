@@ -91,7 +91,7 @@
                 <a href="#sluzby" class="cta-button">Naše služby <i class="bi bi-arrow-right"></i></a>
                 <div class="hero-icons">
                     <div class="icon-item">
-                        <i><img src="public/tire.webp" alt=""></i>
+                        <i><img src"public/tire.webp" alt=""></i>
                         <p>Pneuservis</p>
                     </div>
                     <div class="icon-item">
@@ -112,43 +112,116 @@
 
     <section id="sluzby">
         <h2>Služby</h2>
-        <div class="service-grid">
-            <div class="service-card">
-                <img src="/public/grantpneu-cz_03.webp" alt="Pneumatiky">
-                <div class="service-content">
-                    <h3><i class="bi bi-truck"></i> Pneuservis</h3>
-                    <p class="service-preview">Kompletní pneuservis pro osobní, suv i offroad vozidla. Rychle a profesionálně.</p>
-                    <p class="service-detail">Nabízíme širokou škálu služeb v oblasti pneuservisu, včetně výměny pneumatik. Věnujeme se jak osobním, SUV, offroad, dodávkám. Přijďte a přesvědčte se sami!</p>
-                    <button class="service-toggle">
-                        <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
-                        <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
-                    </button>
+        <div class="service-groups">
+            <div class="service-group">
+                <h3>Pneuservis</h3>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <img src="/public/grantpneu-cz_03.webp" alt="Pneumatiky">
+                        <div class="service-content">
+                            <h3><i class="bi bi-truck"></i> Pneuservis</h3>
+                            <p class="service-preview">Kompletní pneuservis pro osobní, suv i offroad vozidla. Rychle a profesionálně.</p>
+                            <p class="service-detail">Nabízíme širokou škálu služeb v oblasti pneuservisu, včetně výměny pneumatik. Věnujeme se jak osobním, SUV, offroad, dodávkám. Přijďte a přesvědčte se sami!</p>
+                            <button class="service-toggle">
+                                <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
+                                <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="/public/flat-tire.webp" alt="Píchlá guma">
+                        <div class="service-content">
+                            <h3><i class="bi bi-tools"></i> Oprava pneumatik</h3>
+                            <p class="service-preview">Opravy pneumatik všech typů. Spolehněte se na naši profesionalitu.</p>
+                            <p class="service-detail">Provádíme opravy pneumatik pro všechny druhy vozidel. Naše služby zahrnují opravy běhounu, bočnic a dalších částí pneumatik. Používáme kvalitní materiály a moderní techniky, které zaručují dlouhou životnost oprav.</p>
+                            <button class="service-toggle">
+                                <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
+                                <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="/public/tire-change.webp" alt="Přezutí">
+                        <div class="service-content">
+                            <h3><i class="bi bi-gear"></i> Přezutí pneumatik</h3>
+                            <p class="service-preview">Sezónní přezutí pneumatik s precizním provedením.</p>
+                            <p class="service-detail">Nabízíme kompletní služby přezutí pneumatik zahrnující: demontáž z vozu, montáž na vůz, přezutí a vyvážení včetně závaží. Přezouváme osobní vozy, SUV, offroad i dodávky. Dbáme na bezpečnost a komfort vaší jízdy.</p>
+                            <button class="service-toggle">
+                                <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
+                                <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="service-card">
-                <img src="/public/flat-tire.webp" alt="Píchlá guma">
-                <div class="service-content">
-                    <h3><i class="bi bi-tools"></i> Oprava pneumatik</h3>
-                    <p class="service-preview">Opravy pneumatik všech typů. Spolehněte se na naši profesionalitu.</p>
-                    <p class="service-detail">Provádíme opravy pneumatik pro všechny druhy vozidel. Naše služby zahrnují opravy běhounu, bočnic a dalších částí pneumatik. Používáme kvalitní materiály a moderní techniky, které zaručují dlouhou životnost oprav.</p>
-                    <button class="service-toggle">
-                        <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
-                        <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
-                    </button>
+            <div class="service-group">
+                <h3>Autoservis</h3>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <img src="/public/car-service.jpg" alt="Opravy motorových vozidel">
+                        <div class="service-content">
+                            <h3><i class="bi bi-wrench"></i> Opravy motor. vozidel</h3>
+                            <p class="service-preview">Kompletní opravy a servis motorových vozidel.</p>
+                            <p class="service-detail">Provádíme opravy motorů, brzd, podvozků a dalších částí vozidel. Zajišťujeme profesionální přístup a kvalitní práci.</p>
+                            <button class="service-toggle">
+                                <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
+                                <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="/public/car-diagnostic.jpg" alt="Diagnostika">
+                        <div class="service-content">
+                            <h3><i class="bi bi-cpu"></i> Diagnostika</h3>
+                            <p class="service-preview">Moderní diagnostika vozidel.</p>
+                            <p class="service-detail">Provádíme diagnostiku elektronických systémů vozidel pomocí moderních přístrojů. Rychle odhalíme a vyřešíme závady.</p>
+                            <button class="service-toggle">
+                                <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
+                                <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="/public/car-stk.jpeg" alt="Zřízení STK a příprava na STK">
+                        <div class="service-content">
+                            <h3><i class="bi bi-clipboard-check"></i> Zřízení a příprava na STK</h3>
+                            <p class="service-preview">Zajistíme STK a připravíme vaše vozidlo na kontrolu.</p>
+                            <p class="service-detail">Připravíme vaše vozidlo na technickou kontrolu a zajistíme její provedení. Postaráme se o vše potřebné pro úspěšné absolvování STK.</p>
+                            <button class="service-toggle">
+                                <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
+                                <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="service-card">
-                <img src="/public/tire-change.webp" alt="Přezutí">
-                <div class="service-content">
-                    <h3><i class="bi bi-gear"></i> Přezutí pneumatik</h3>
-                    <p class="service-preview">Sezónní přezutí pneumatik s precizním provedením.</p>
-                    <p class="service-detail">Nabízíme kompletní služby přezutí pneumatik zahrnující: demontáž z vozu, montáž na vůz, přezutí a vyvážení včetně závaží. Přezouváme osobní vozy, SUV, offroad i dodávky. Dbáme na bezpečnost a komfort vaší jízdy.</p>
-                    <button class="service-toggle">
-                        <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
-                        <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
-                    </button>
+            <div class="service-group">
+                <h3>Ostatní služby</h3>
+                <div class="service-grid">
+                    <div class="service-card">
+                        <img src="/public/car-wash.jpg" alt="Úklid vozidel">
+                        <div class="service-content">
+                            <h3><i class="bi bi-droplet"></i> Úklid vozidel</h3>
+                            <p class="service-preview">Profesionální úklid a čištění vozidel.</p>
+                            <p class="service-detail">Nabízíme kompletní úklid interiéru i exteriéru vozidel. Používáme šetrné a účinné prostředky pro dokonalý výsledek.</p>
+                            <button class="service-toggle">
+                                <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
+                                <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="/public/pneuhotel.jpg" alt="Pneuhotel">
+                        <div class="service-content">
+                            <h3><i class="bi bi-house"></i> Pneuhotel</h3>
+                            <p class="service-preview">Bezpečné uskladnění vašich pneumatik.</p>
+                            <p class="service-detail">Nabízíme službu pneuhotel – bezpečné a profesionální uskladnění vašich pneumatik mimo sezónu. Pneumatiky jsou u nás v suchu, chladu a bezpečí.</p>
+                            <button class="service-toggle">
+                                <span class="show-more">Více informací <i class="bi bi-chevron-down"></i></span>
+                                <span class="show-less">Méně informací <i class="bi bi-chevron-up"></i></span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -234,6 +307,10 @@
                 <div class="price-row">
                     <span>Oprava pneu</span>
                     <span>300 Kč</span>
+                </div>
+                <div class="price-row">
+                    <span>Hodinová sazba autoservis a úklid vozidla</span>
+                    <span>700 Kč</span>
                 </div>
             </div>
         </div>
