@@ -86,7 +86,7 @@
         </div>
         <div class="hero">
             <div class="hero-content">
-                <h1>Výtejte v Grantpneu.cz</h1>
+                <h1>Vítejte v Grantpneu.cz</h1>
                 <p>Investice do kvalitních pneumatik je investice do vašeho bezpečí</p>
                 <a href="#sluzby" class="cta-button">Naše služby <i class="bi bi-arrow-right"></i></a>
                 <div class="hero-icons">
@@ -309,7 +309,7 @@
                     <span>300 Kč</span>
                 </div>
                 <div class="price-row">
-                    <span>Hodinová sazba autoservis a úklid vozidla</span>
+                    <span>Hodinová sazba autoservis vozidla</span>
                     <span>700 Kč</span>
                 </div>
             </div>
